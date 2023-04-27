@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #dbe2ef;
+    height: 100vh;
+}
+
+.red{
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.row{
+    margin: 10px auto;
+}
+
+.iconosRedes a {
+    text-decoration: none;
+    color: white;
+    background: #c11c23;
+    width: 30px;
+    height: 30px;
+    line-height: 30px !important;
+    border-radius: 50%;
+    transition: all .3s ease-in-out;
+  }
+  
+  .iconosRedes a:hover {
+    transform: scale(1.2);
+  }
+
+  ul li {
+    list-style: none;
+}
+
+.iconosRedes{
+    margin: 2px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.iconosRedes li{
+    padding: 5px;
+}
+
+.btn-danger{
+    background-color: #c11c23;
+}
+
+.footerReplace{
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.socialMedia li{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.list-group h6{
+    font-style: italic;
+}
+
+.card-body h5{
+    font-weight: bold;
+}
